@@ -11,6 +11,12 @@
     "api",
     "esports"
   ],
+  "repositories":[
+     {
+        "type": "git",
+        "url": "https://github.com/mrgarymartin/yii2-pubg-api"
+     }
+  ],
   "license": "MIT",
   "authors": [
     {
