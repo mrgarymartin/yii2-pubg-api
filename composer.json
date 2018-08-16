@@ -1,0 +1,38 @@
+{
+  "name": "tunerzedge/yii2-pubg-api",
+  "description": "This is a PHP wrapper for Yii2 to work with PUBG Api",
+  "type": "yii2-extension",
+  "version": "0.0.1",
+  "keywords": [
+    "yii2",
+    "extension",
+    "pubg",
+    "php",
+    "api",
+    "esports"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gary Martin",
+      "email": "mrgarymartin@gmail.com",
+      "homepage": "https://github.com/andrewbroberg",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "phpunit/phpunit": "^7.0"
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Tunerzedge\\PUBG\\": ""
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tunerzedge\\PUBG\\": "tests/"
+    }
+  }
+}
